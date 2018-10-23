@@ -1,4 +1,4 @@
-**Goal**
+## Goal
 With an unprecedented progress in the Ride-sharing industry by the likes of Uber and Lyft, this project
 takes a step back and attempts to build a ride scheduler for the following simple scenario:
 
@@ -9,10 +9,12 @@ max. arrival time, pickup and drop-off co-ordinates.
 
 The objective is to use minimum number of vehicles to service all ride requests and also produce an itinerary of all vehicles.
 
-**Entry point** SchedulerMain.java
-**Main class and method** ScheduleGenerator.java -> getSchedules()
+## Entry point
+	SchedulerMain.java
+## Main class and method
+	ScheduleGenerator.java -> getSchedules()
 
-**Algorithm**
+## Algorithm
 
 1. Sort passenger trips based on earliest pick up.
 2. Initialize a vehicleList with one vehicle and a pointer currentVehicleNumber to 0.
